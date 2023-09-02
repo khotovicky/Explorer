@@ -8,5 +8,5 @@ let elemList = document.querySelectorAll('.about__articles_link')
 elemList.forEach((item) => {
     item.onclick = function() {
         continueText(item)
-    }
+        }
 })
